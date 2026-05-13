@@ -1,0 +1,12 @@
+[project]
+name = "solvacheck"
+version = "0.1.0"
+description = "Hansen Solubility Parameter compatibility checker for cosmetic ingredients and solvents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.4",
+    "pandas>=3.0.3",
+    "plotly>=6.7.0",
+    "streamlit>=1.57.0",
+]

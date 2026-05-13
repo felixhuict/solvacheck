@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv/
+
+# uv
+uv.lock
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (user-generated, not source)
+solvents.json
+ingredients.json
+
+# OS
+.DS_Store
+Thumbs.db
