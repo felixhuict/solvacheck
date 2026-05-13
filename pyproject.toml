@@ -1,5 +1,6 @@
 [project]
 name = "solvacheck"
+package-mode = false
 version = "0.1.0"
 description = "Hansen Solubility Parameter compatibility checker for cosmetic ingredients and solvents"
 readme = "README.md"
