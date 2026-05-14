@@ -4,11 +4,11 @@ A research tool for checking solvent–ingredient compatibility using **Hansen S
 
 Given a solvent, SolvaCheck calculates the Hansen distance (Ra) to each cosmetic ingredient and classifies the compatibility:
 
-| Ra | Classification |
-|----|----------------|
-| < 5 | Goed compatibel |
+| Ra     | Classification   |
+| ------ | ---------------- |
+| < 5    | Goed compatibel  |
 | 5 – 10 | Matig compatibel |
-| > 10 | Incompatibel |
+| > 10   | Incompatibel     |
 
 ---
 
@@ -24,8 +24,8 @@ Given a solvent, SolvaCheck calculates the Hansen distance (Ra) to each cosmetic
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd afiefah
+git clone https://github.com/felixhuict/solvacheck
+cd solvacheck
 ```
 
 ### 2. Install dependencies
@@ -47,7 +47,7 @@ The app opens in your browser at `http://localhost:8501`.
 ## Project structure
 
 ```
-afiefah/
+solvacheck/
 ├── main.py              # Application entry point
 ├── solvents.json        # Solvent library (auto-generated on first run)
 ├── ingredients.json     # Cosmetic ingredient library (auto-generated on first run)
@@ -65,11 +65,14 @@ afiefah/
 ## Adding data
 
 ### Solvents
+
 Go to the **Solventen** page in the app. You can:
+
 - Add a single solvent manually (name, δD, δP, δH)
 - Upload a CSV file with columns: `name`, `dD`, `dP`, `dH`
 
 ### Ingredients
+
 Ingredient data is defined in `DEFAULT_INGREDIENTS` inside `main.py`.
 To add a new ingredient, append an entry:
 
