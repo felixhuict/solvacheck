@@ -22,15 +22,15 @@ The app is available at `http://localhost:8501` after startup.
 
 | Section | Description |
 |---|---|
-| [Architecture](architecture/index.md) | Application structure, layers, and module breakdown |
-| [Dependencies](dependencies/index.md) | All libraries, frameworks, and runtime versions |
-| [Tooling](tooling/index.md) | Package manager, dev server, and available commands |
-| [Coding Patterns](coding-patterns/index.md) | Conventions, naming, data types, and UI patterns |
-| [Configuration](configuration/index.md) | Config files, constants, and Streamlit theme |
-| [Testing](testing/index.md) | Current test coverage status and guidance |
-| [Deployment](deployment/index.md) | How to run and host the application |
-| [API](api/index.md) | Internal page routing and widget interaction patterns |
-| [Data Flow](data-flow/index.md) | How data moves through the application |
+| [Architecture](architecture/README.md) | Application structure, layers, and module breakdown |
+| [Dependencies](dependencies/README.md) | All libraries, frameworks, and runtime versions |
+| [Tooling](tooling/README.md) | Package manager, dev server, and available commands |
+| [Coding Patterns](coding-patterns/README.md) | Conventions, naming, data types, and UI patterns |
+| [Configuration](configuration/README.md) | Config files, constants, and Streamlit theme |
+| [Testing](testing/README.md) | Current test coverage status and guidance |
+| [Deployment](deployment/README.md) | How to run and host the application |
+| [API](api/README.md) | Internal page routing and widget interaction patterns |
+| [Data Flow](data-flow/README.md) | How data moves through the application |
 
 ---
 
